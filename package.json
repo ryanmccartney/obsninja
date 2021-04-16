@@ -1,0 +1,41 @@
+{
+  "name": "obsninja",
+  "version": "1.0.0",
+  "description": "<img src=\"media/obsNinja_logo_full.png\" alt=\"Logo by brimace\" height=\"150\" />",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "production": "node ./server/server",
+    "development": "nodemon ./server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmccartney/obsninja.git"
+  },
+  "author": "Ryan McCartney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanmccartney/obsninja/issues"
+  },
+  "homepage": "https://github.com/ryanmccartney/obsninja#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "module-alias": "^2.2.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.2"
+  },
+  "_moduleAliases": {
+    "@root": "./",
+    "@server": "./server",
+    "@public": "./client/public/"
+  }
+}

@@ -1,2 +1,11 @@
+
+# General
+.DS_Store
+
+# Main pacakge
 node_modules/
-package-lock.json
+
+# Logs
+*.log
+logs/*
+!logs/.gitkeep
